@@ -1,0 +1,120 @@
+body{
+	background: white;
+	margin: 0px;
+	padding: 0px;
+	width: 100%
+}
+#content{
+	width: 100%
+	padding: 0px;
+	margin: 0px;
+	/*background: white;
+	width: 630px;
+	*/
+}
+
+/*beginning of header and nav markup*/
+header {
+	font-size: 16px;
+	padding: 0px;
+	margin: 0px;
+	/*height: 45px;*/
+}
+#logo {
+	width: 28.5714286%;
+	float: left;
+}
+#logo img {
+	max-width: 100%;
+}
+/*h1 {
+	float: left;
+	/* color: dark-red;*/
+	font-size: 280%;
+	margin: 0;
+	width: 28.5714286%;
+	text-shadow: 2px 2px 3px #111;*/
+}
+nav{
+	width: 71.6%;
+	background: black;
+	height: 100%;
+	/*margin: auto 28.5714286%;*/
+	
+}
+nav ul{
+	/*width: 100%;
+	margin: 0 auto;*/
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+}
+nav li{
+	width: 12.5%;
+	background: black;
+	float: left;
+}
+nav li a {
+	color: brown;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	height: 22px;
+	line-height: 22px;
+}
+nav li a:visited {
+	color: white;
+}
+nav li a:hover {
+	text-shadow: 2px 2px 3px black;
+}
+nav li a:active {
+	color: white;
+}
+/*end of header and navigation*/
+
+#about {
+	width: 85%;
+	font-size: 20px;
+	margin: 0 auto;
+	padding: 8px;
+	clear: left;
+	/*-moz-column-count: 3;*/
+}
+#about p {
+	 margin: 0px;
+}
+article {
+	width: 85%;
+	margin: 8px auto;
+	background: silver;
+	border: 2px solid white;
+	border-radius: 10px;
+	padding: 8px;
+	box-shadow: 3px 3px 6px navy;
+	clear: both;
+}
+
+article header {
+	width: 28%;
+	float: left;
+	border: 2px solid black;
+}
+/*article ul {
+	margin: 0 auto;*/
+}
+
+div.title {
+	width: 280px;
+	float: left;
+	border: 2px solid black;
+}	
+header img {
+	max-width: 100%;
+}
+article li {
+	list-style-type: none;
+	float: left;
+	padding-right: 5px;
+	overflow: hidden;
+}
