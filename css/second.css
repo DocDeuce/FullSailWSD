@@ -1,5 +1,5 @@
 body{
-	background: white;
+	background: #edf8fa;
 	margin: 0px;
 	padding: 0px;
 	width: 100%
@@ -16,7 +16,7 @@ body{
 /*beginning of header and nav markup*/
 
 header {
-	font-size: 16px;
+	font-size: 18px;
 	padding: 0px;
 	margin: 0px;
 	/*height: 45px;*/
@@ -30,18 +30,17 @@ header {
 }
 /*h1 {
 	float: left;
-	/* color: dark-red;*/
+	color: dark-red;
 	font-size: 280%;
 	margin: 0;
 	width: 28.5714286%;
-	text-shadow: 2px 2px 3px #111;*/
-}
+	text-shadow: 2px 2px 3px #111;
+}*/
 nav{
 	width: 71.6%;
-	background: black;
 	height: 100%;
-	/*margin: auto 28.5714286%;*/
-	
+	margin: 0px 28.5714286%;
+	padding-top: 1%;
 }
 nav ul{
 	/*width: 100%;
@@ -56,7 +55,7 @@ nav li{
 	float: left;
 }
 nav li a {
-	color: brown;
+	color: 	#890f01;
 	text-align: center;
 	text-decoration: none;
 	display: block;
@@ -68,12 +67,16 @@ nav li a:visited {
 	color: navy;
 }
 nav li a:hover {
-	text-shadow: 2px 2px 3px black;
+	text-shadow: 2px 2px 3px silver;
 }
 nav li a:active {
 	color: white;
 }
 /*end of header and navigation*/
+
+p {
+	font-family: 'benchnine', sans-serif;
+}
 
 #about {
 	width: 85%;
@@ -88,43 +91,59 @@ nav li a:active {
 }
 article {
 	width: 85%;
-	margin: 8px auto;
-	background: silver;
-	border: 2px solid white;
+	margin: 0px auto 2%;
+	background: white;
+	border: 2px solid navy;
 	border-radius: 10px;
-	padding: 8px;
+	padding: 20px;
 	box-shadow: 3px 3px 6px navy;
 	clear: both;
 	overflow: hidden;
 }
-
-article header {
-	max-width: 100%;
-	/*float: left;*/
-	border: 2px solid black;
-}
 .articleleft {
 	float: left;
 	width: 28%;
+	box-shadow: 5px 0px 4px #F0F0F0;
 }
-
-p {
-	font-family: 'benchnine', sans-serif;
-}
-/*article ul {
-	margin: 0 auto;*/
-}
-
-div.title {
-	width: 280px;
-	float: left;
-	border: 2px solid black;
-}	
-header img {
+article header {
 	max-width: 100%;
+}
+article header img {
+	display: block;
+	max-width: 90%;
+	margin: 2% auto 0px;
+}
+article p {
+	color: navy;
+	font-size: 1.2em;
+	margin: 0px 2% 2%;
+}
+div.gallery {
+	width: 72%;
+	margin-left: 28%;
+	overflow: hidden;
+}
+.gallery ul {
+	padding: 0px;
+	margin-top: 5%;
 }
 .gallery li {
 	list-style-type: none;
 	float: left;
-	padding-right: 5px;
+	margin-left: 10%;
+	border: 4px solid #890f01;
+	box-shadow: 5px 5px 8px navy;
 }
+.gallery a {
+	display: block;
+	width: 150px;
+	height: 150px;
+}
+.gallery img {
+	max-width: 100%;
+}
+div.title {
+	width: 280px;
+	float: left;
+	border: 2px solid black;
+	}
