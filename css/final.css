@@ -20,13 +20,17 @@ header {
 	width: 31.3%;
 	float: left;
 }
-#logo h1 {
+h1 {
 	width: 100%;
 	max-width: 100%
 	font-weight: normal;
 	font: 6.3em "Ruthie", cursive;
+	color: #890f01;
 	margin: 0;
 	padding: 0;
+}
+#navy {
+	color: navy;
 }
 #logo img {
 	max-width: 100%;
@@ -41,8 +45,8 @@ nav ul{
 	list-style-type: none;
 	padding: 0;
 	overflow: hidden;
-	border-top: 3px double navy;
-	border-bottom: 3px double navy;
+	border-top: 2px solid navy;
+	border-bottom: 2px solid navy;
 }
 nav li{
 	width: 12.5%;
@@ -103,7 +107,8 @@ article {
 article header {
 	max-width: 100%;
 }
-article header img {
+article header h1 {
+	text-align: center;
 	display: block;
 	max-width: 90%;
 	margin: 2% auto 0px;
