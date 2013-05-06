@@ -17,7 +17,8 @@ header {
 	margin: 0px;
 }
 #logo {
-	width: 31.3%;
+	/*width: 31.3%;*/
+	width: 440px;
 	float: left;
 }
 h1 {
@@ -36,9 +37,7 @@ h1 {
 	max-width: 100%;
 }
 nav{
-	width: 68.8%;
-	height: 100%;
-	margin: 0px 31.3%;
+	margin: 0 0 0 440px;
 	padding-top: 1%;
 }
 nav ul{
@@ -101,6 +100,7 @@ article {
 .articleleft {
 	float: left;
 	width: 28%;
+	height: 100%;
 	box-shadow: 5px 0px 4px #f0f0f0;
 	padding: 0px;
 }
@@ -127,35 +127,36 @@ div.gallery {
 	background: #edf8fa;
 }
 .gallery ul {
-	padding: 0px;
+	padding: 2% 13% 2% 0;
+	overflow: hidden;
 	/*margin: 2% 0px;*/
-	height: 158px;
 }
 .gallery li {
 	list-style-type: none;
 	float: left;
-	margin-left: 10%;
+	width: 16%;
+	margin-left: 15%;
 	box-shadow: 3px 3px 8px #8290e8;
 }
 .gallery a {
 	display: block;
-	width: 150px;
-	height: 150px;
+
+	width: 100%;
 	border: 3px solid #890f01;
 }
 .gallery a:visited {
 	border: 3px solid navy;
 }
 .gallery a:hover {
-	width: 158px;
-	height: 158px;
+	width: 110%;
+	/*height: 138px;*/
 }
 .gallery a:active {
 	border: 3px solid #edf8fa;
 }
 .gallery img {
 	width: 100%;
-	max-width: 100%;
+	max-width: 100%;	
 }
 div.seemore {
 	max-width: 100%;
